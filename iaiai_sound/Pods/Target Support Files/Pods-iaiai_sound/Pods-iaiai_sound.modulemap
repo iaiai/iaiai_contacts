@@ -1,0 +1,6 @@
+framework module Pods_iaiai_sound {
+  umbrella header "Pods-iaiai_sound-umbrella.h"
+
+  export *
+  module * { export * }
+}

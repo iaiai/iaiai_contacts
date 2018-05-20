@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'iaiai_sound' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SnapKit'				#布局(swift)
+  pod 'Toast-Swift'			#提示
+  pod 'IQKeyboardManagerSwift'		#键盘
+  pod 'SwiftEventBus', :tag => '2.2.0', :git => 'https://github.com/cesarferreira/SwiftEventBus.git'
+  pod 'SwiftyAttributes'		#易用、强大的属性字符串iOS工具库
+  pod 'ReachabilitySwift'		#判断网络状态
+
+end
